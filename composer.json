@@ -1,5 +1,6 @@
 {
   "name": "padam87/account-bundle",
+  "type": "symfony-bundle",
   "license": "MIT",
   "description": "Account bundle for Symfony",
   "keywords": [
