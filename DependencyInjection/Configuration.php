@@ -28,7 +28,6 @@ class Configuration implements ConfigurationInterface
                         ->scalarNode('transaction')->isRequired()->cannotBeEmpty()->end()
                     ->end()
                     ->isRequired()
-                    ->cannotBeEmpty()
                 ->end()
                 ->arrayNode('currencies')
                     ->prototype('scalar')
